@@ -1,14 +1,13 @@
 from flask_restplus import Namespace, Resource, fields
-from flask_restplus import reqparse , Api
+from core.utility import Utility
 from werkzeug.datastructures import FileStorage
 import uuid , os
-from summarizer import Summarizer
 from textblob import TextBlob
 
 
-
-api = Namespace('TextSummarizer',
-                description='Creating semantic summary information from huge corpus of text')
+utils = Utility()
+api = Namespace('SimilaritySummarizer',
+                description='Sentence Similarity based text summarizer')
 
 
 upload_parser = api.parser()
@@ -18,22 +17,19 @@ upload_parser.add_argument('file', location='files',
 
 @api.route('/upload/')
 @api.expect(upload_parser)
-class textSummarizer(Resource):
+class SummarizerSimilarity(Resource):
     @api.response(200, 'Success')
     @api.response(404, 'Validation Error')
     def post(self):
         try:
-            model = Summarizer()
             args = upload_parser.parse_args()
             uploaded_file = args['file']
             filepath = os.path.join('FileStorage',str(uuid.uuid4())+'.txt')
             uploaded_file.save(filepath)
-            file = open(filepath, "r")
-            filedata = file.read()
-            result = model(filedata, min_length=10)
-            summary = ''.join(result)
-            testimonial = TextBlob(summary)
+            result = utils.generate_summary(filepath)
+            testimonial = TextBlob(result)
             polarity = testimonial.sentiment.polarity
-            return {'SentimentPolarity':polarity, 'Summary':summary}
+
+            return {'SentimentPolarity':polarity, 'Summary':result}
         except:
             api.abort(404)

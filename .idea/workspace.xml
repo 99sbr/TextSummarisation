@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8315ed48-4d5d-49d9-920a-4fece4e7ab5b" name="Default Changelist" comment="" />
+    <list default="true" id="8315ed48-4d5d-49d9-920a-4fece4e7ab5b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apis/ns_SimilaritySummarizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/utility.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileStorage/35eba928-28cb-47de-ba87-d15d92dc59cd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Text Summarization.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Text Summarization.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apis/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apis/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apis/namespace.py" beforeDir="false" afterPath="$PROJECT_DIR$/apis/ns_BertSummarizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/model.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,14 +25,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
   <component name="ProjectId" id="1ZekYRkXKPrGn6UHoa5JAxDp8GF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -83,25 +101,29 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1585212624644" />
-    <state width="459" height="801" key="GridCell.Tab.0.bottom" timestamp="1585552679980">
+    <state width="465" height="801" key="GridCell.Tab.0.bottom" timestamp="1585560263888">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="459" height="801" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585552679980" />
-    <state width="459" height="801" key="GridCell.Tab.0.center" timestamp="1585552679979">
+    <state width="465" height="801" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585560263888" />
+    <state width="465" height="801" key="GridCell.Tab.0.center" timestamp="1585560263886">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="459" height="801" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585552679979" />
-    <state width="459" height="801" key="GridCell.Tab.0.left" timestamp="1585552679978">
+    <state width="465" height="801" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585560263886" />
+    <state width="465" height="801" key="GridCell.Tab.0.left" timestamp="1585560263886">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="459" height="801" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585552679978" />
-    <state width="459" height="801" key="GridCell.Tab.0.right" timestamp="1585552679979">
+    <state width="465" height="801" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585560263886" />
+    <state width="465" height="801" key="GridCell.Tab.0.right" timestamp="1585560263887">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="459" height="801" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585552679979" />
+    <state width="465" height="801" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585560263887" />
     <state x="259" y="89" key="SettingsEditor" timestamp="1585207299602">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="259" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1585207299602" />
+    <state x="496" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585560332775">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="496" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1585560332775" />
   </component>
 </project>
